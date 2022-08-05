@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* here starts header */
+header {
+  background-color: #dddddd;
+  max-width: 100%;
+}
+
+.header-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* here starts header's left side */
+.left-head {
+  margin-left: 52px;
+  margin-top: 48px;
+}
+
+.upper-left {
+  display: flex;
+  align-items: flex-end;
+}
+
+.roca {
+  color: #1a1a1a;
+  font-size: 40px;
+}
+
+.roca-dot {
+  color: #0081ff;
+  font-size: 41px;
+}
+
+.lower-left {
+  transform: translateY(-10px);
+}
+
+.lower-left span {
+  color: #b3b3b3;
+  font-size: 13px;
+}
+
+/* here starts header's right side */
+.right-head {
+  position: relative;
+  margin-top: 25px;
+  margin-right: 82px;
+}
+
+.parent-span {
+  color: #b3b3b3;
+  font-size: 158.3px;
+}
+
+.child-span {
+  color: #373737;
+  font-size: 43.17px;
+  position: absolute;
+  transform: translate(-175px, 65px);
+  width: 227px;
+}
+
+/* here starts header's body's left side */
+.header-body {
+  display: flex;
+  justify-content: center;
+  transform: translateY(-110px);
+}
+
+.left-hbody img {
+  width: 550px;
+}
+
+/* here starts header's body's right side */
+.right-hbody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.right-hbody span {
+  color: #212121;
+}
+
+.first-line {
+  font-size: 50px;
+}
+
+.second-line {
+  font-size: 71px;
+}
+
+.third-line {
+  font-size: 23.3px;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.logos a {
+  margin-right: 15px;
+}
+
+.logos img {
+  width: 25px;
+  border-radius: 50%;
+}
+
+.youtube-logo img {
+  width: 30px;
+  border-radius: 0%;
+}
+
+.smt-logo img {
+  border-radius: 0%;
+}
+
+/* here starts header's footer */
+.header-footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  margin-right: 100px;
+  margin-top: -4%;
+  margin-bottom: 30px;
+}
+
+.hundred-perc {
+  color: #e93656;
+  font-size: 24px;
+}
+
+.satis-cl {
+  color: #212121;
+  font-size: 24px;
+}
+
+.progress {
+  width: 340px;
+  height: 6px;
+  background-color: #e93656;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
