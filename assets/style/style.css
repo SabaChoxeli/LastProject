@@ -163,3 +163,127 @@ header {
   margin-top: 20px;
   margin-bottom: 30px;
 }
+
+/* here starts upper section's left side */
+.upper-section {
+  display: flex;
+  margin-top: 135px;
+  justify-content: center;
+  align-items: center;
+}
+
+.upper-section-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.upper-section-left h1 {
+  color: #222222;
+  font-size: 40px;
+  margin-bottom: 6px;
+}
+
+.upper-section-left h4 {
+  color: #daae19;
+  font-size: 14px;
+  margin-bottom: 33px;
+}
+
+.upper-section-left p {
+  color: #555555;
+  font-size: 15px;
+  width: 334px;
+  margin-bottom: 73px;
+}
+
+.upper-section-left button {
+  background-color: #e93656;
+  color: #ffffff;
+  font-size: 15px;
+  width: 152px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+/* here starts upper section's middle */
+.upper-section-middle {
+  margin-left: 65px;
+  margin-right: 69px;
+}
+
+.upper-section-middle img {
+  width: 430px;
+}
+
+/* here starts upper section right side's upper */
+.section-flex {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 23px;
+}
+
+.info-progress {
+  margin-bottom: 23px;
+}
+
+.right-side-upper {
+  margin-bottom: 78px;
+}
+
+.right-side-upper p {
+  color: #555555;
+  font-size: 20px;
+}
+
+.right-side-upper span {
+  color: #e93656;
+  font-size: 20px;
+}
+
+.section-progress {
+  width: 300px;
+  height: 9px;
+  background-color: #f0f0f0;
+}
+
+.first-section-progress {
+  width: 256px;
+  height: 9px;
+  background-color: #e93656;
+}
+
+.second-section-progress {
+  background-color: #e93656;
+  width: 191px;
+  height: 9px;
+}
+
+.third-section-progress {
+  width: 150px;
+  height: 9px;
+  background-color: #e93656;
+}
+
+.fourth-section-progress {
+  width: 76px;
+  height: 9px;
+  background-color: #e93656;
+}
+
+/* here starts upper section right side's lower */
+.right-side-lower {
+  display: flex;
+}
+
+.right-side-lower div {
+  width: 50px;
+  height: 50px;
+  background-color: #f9f9f9;
+  margin-right: 5px;
+}
+
+.right-side-lower div:hover {
+  background-color: #15263e;
+}
