@@ -287,3 +287,70 @@ header {
 .right-side-lower div:hover {
   background-color: #15263e;
 }
+
+/* here starts lower section */
+.d-flex-section {
+  display: flex;
+  align-items: center;
+  margin-right: 41px;
+}
+
+.lower-section {
+  display: flex;
+  background-color: #131a36;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-div {
+  width: 90px;
+  height: 90px;
+  border: 2px dashed white;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 29px;
+}
+
+.img-div img {
+  mix-blend-mode: multiply;
+}
+
+.phone-div img {
+  width: 29px;
+  height: 29px;
+}
+
+.location-div img {
+  width: 30px;
+  height: 31px;
+}
+
+.email-div img {
+  width: 34px;
+  height: 28px;
+}
+
+.phone-div {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.info-div h3 {
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.info-div h5 {
+  font-size: 14px;
+  color: #dfdfdf;
+  margin-top: 15px;
+}
+
+.img-div:hover {
+  background-color: #e93656;
+  border: none;
+  transition: 0.8s;
+}
