@@ -354,3 +354,114 @@ header {
   border: none;
   transition: 0.8s;
 }
+
+/* here starts second section's upper side */
+.second-section_d-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 203px;
+  margin-bottom: 160px;
+}
+
+.upper-second_section {
+  display: flex;
+}
+
+.upper-second_section h3 {
+  font-size: 22px;
+  color: #222222;
+  margin-top: 10px;
+}
+
+.services {
+  width: 285px;
+  height: 360px;
+  opacity: 97%;
+  background-color: #fafafa;
+  margin-right: 10px;
+}
+
+.guarantee img {
+  width: 60px;
+  height: 60px;
+  mix-blend-mode: multiply;
+}
+
+/* here starts second section's lower side */
+.lower-second_section {
+  display: flex;
+  margin-top: 10px;
+}
+
+/* here starts third(recomendation) section's left side */
+.recomendation-section {
+  height: 570px;
+  background-image: url(/assets/imgs/recomendationsection/countdown-bg@2x.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-div p {
+  font-size: 15px;
+  color: #ffffff;
+  width: 430px;
+}
+
+/* here starts third(recomendation) section's middle */
+.recom-face {
+  border: 2px dashed white;
+  border-radius: 50%;
+  margin-right: 50px;
+}
+
+.recom-face img {
+  width: 140px;
+  height: 140px;
+  mix-blend-mode: multiply;
+  border-radius: 50%;
+}
+
+.quote-div img {
+  width: 39px;
+  height: 26px;
+  mix-blend-mode: multiply;
+}
+
+.picture-div {
+  display: flex;
+  margin-left: 50px;
+}
+
+.quote-div h5 {
+  font-size: 13px;
+  color: #e93656;
+}
+
+.quote-div h2 {
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.squares {
+  width: 13px;
+  height: 13px;
+  border: #ffffff 2px solid;
+  margin-bottom: 14px;
+}
+
+.square-div {
+  margin-left: 153px;
+}
+
+.squares:hover {
+  border: #e93656 2px solid;
+}
