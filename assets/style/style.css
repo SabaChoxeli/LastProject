@@ -14,6 +14,10 @@ li {
   list-style-type: none;
 }
 
+img {
+  object-fit: fill;
+}
+
 .container {
   max-width: 1400px;
   width: 100%;
@@ -748,3 +752,34 @@ header {
 }
 
 /* here starts footer */
+.upper-footer {
+  height: 660px;
+  background-image: url(/assets/imgs/footer/footer\ background.jpg);
+  background-size: contain;
+}
+
+.footer-header {
+  padding-top: 152px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-header h2 {
+  font-size: 45px;
+  color: #ffffff;
+}
+
+.footer-header span {
+  font-size: 17px;
+  color: #eeeeee;
+}
+
+.input-field input {
+  width: 290px;
+  height: 50px;
+}
+
+.upper-form form {
+  justify-content: center;
+}
