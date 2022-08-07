@@ -20,6 +20,10 @@ li {
   margin: 0 auto;
 }
 
+.d-flex {
+  display: flex;
+}
+
 /* here starts header */
 header {
   background-color: #dddddd;
@@ -521,3 +525,226 @@ header {
 .projects-body nav ul li:hover {
   color: #e93656;
 }
+
+/* here starts fifth(latest articles) section's header */
+.latest-articles {
+  margin-top: 170px;
+}
+
+.articles-header span {
+  color: #2ed279;
+  font-size: 13px;
+}
+
+.articles-header h2 {
+  color: #2e2e2e;
+  font-size: 70px;
+}
+
+.articles-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+/* here starts article's body */
+.articles-d-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.articles-design img {
+  width: 70px;
+  height: 75px;
+  border-radius: 50%;
+  margin-top: 80px;
+  margin-left: 7px;
+  margin-bottom: 34px;
+}
+
+.articles-design {
+  width: 800px;
+  height: 590px;
+  background-color: #fafafa;
+}
+
+.articles-design span {
+  color: #888888;
+  font-size: 14px;
+  margin-left: 30px;
+  margin-bottom: 5px;
+}
+
+.articles-design h3 {
+  font-size: 40px;
+  color: #161616;
+  margin-left: 24px;
+  margin-bottom: 28px;
+}
+
+.articles-design p {
+  color: #494949;
+  margin-left: 28px;
+  width: 465px;
+  font-size: 16px;
+}
+
+.articles-design .read-more {
+  color: #444444;
+  font-size: 13px;
+  margin-left: 28px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.years {
+  width: 123px;
+  height: 590px;
+  background-color: #15263e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-box {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.years-background img {
+  width: 809px;
+  height: 590px;
+}
+
+.years span {
+  color: #e93656;
+  font-size: 30px;
+  writing-mode: tb-rl;
+  transform: rotate(180deg);
+}
+
+.application-design {
+  width: 800px;
+  height: 590px;
+  padding-left: 227px;
+  padding-top: 100px;
+}
+
+.application-design img {
+  width: 90px;
+  height: 75px;
+  border-radius: 50%;
+  margin-bottom: 35px;
+}
+
+.second-box {
+  display: flex;
+  transform: translateY(-4px);
+}
+
+.application-design span {
+  color: #888888;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.application-design h3 {
+  color: #161616;
+  font-size: 38px;
+  margin-bottom: 28px;
+}
+
+.application-design p {
+  color: #494949;
+  font-size: 16px;
+  max-width: 465px;
+}
+
+.application-design .read-more {
+  color: #444444;
+  font-size: 13px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.third-box {
+  display: flex;
+  justify-content: flex-end;
+  transform: translateY(-8px);
+}
+
+.adviser-design span {
+  color: #888888;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.adviser-design h3 {
+  color: #161616;
+  font-size: 38px;
+  margin-bottom: 28px;
+}
+
+.adviser-design p {
+  color: #494949;
+  font-size: 16px;
+  width: 465px;
+  margin-right: 165px;
+}
+
+.adviser-design img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-bottom: 35px;
+  margin-top: 108px;
+}
+
+.adviser-design .read-more {
+  color: #444444;
+  font-size: 13px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* here starts rosa team section */
+.rosa-team {
+  margin-top: 170px;
+}
+
+.rosa-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 81px;
+}
+
+.rosa-header span {
+  color: #2ed279;
+  font-size: 14px;
+}
+
+.rosa-header h2 {
+  color: #262526;
+  font-size: 70px;
+}
+
+.rosa-body {
+  display: flex;
+  justify-content: center;
+}
+
+.rosa-body img {
+  max-width: 110px;
+  max-height: 110px;
+}
+
+.rosa-divs {
+  width: 230px;
+  height: 190px;
+  margin-right: 5px;
+  padding: 40px 59px;
+}
+
+/* here starts footer */
