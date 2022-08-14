@@ -755,7 +755,7 @@ header {
 .upper-footer {
   height: 660px;
   background-image: url(/assets/imgs/footer/footer\ background.jpg);
-  background-size: contain;
+  background-size: cover;
 }
 
 .footer-header {
@@ -763,6 +763,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 46px;
 }
 
 .footer-header h2 {
@@ -775,11 +776,126 @@ header {
   color: #eeeeee;
 }
 
+/* here starts footer's body */
 .input-field input {
-  width: 290px;
+  width: 310px;
   height: 50px;
+  outline: none;
+  padding-left: 30px;
+  font-size: 10px;
 }
 
-.upper-form form {
+.footer-body form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.upper-form {
+  display: flex;
+}
+
+.lower-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-field textarea {
+  resize: none;
+  width: 950px;
+  height: 110px;
+  margin-top: 10px;
+  outline: none;
+  padding-left: 30px;
+  padding-top: 25px;
+  font-size: 10px;
+}
+
+.input-field {
+  margin-right: 10px;
+}
+
+.lower-form .button {
+  margin-top: 30px;
+  width: 187px;
+  height: 50px;
+  background-color: transparent;
+  border-color: #e93656;
+  cursor: pointer;
+  padding: 0;
+  color: #e93656;
+  font-size: 12px;
+}
+
+/* here starts lower footer */
+.lower-footer {
+  background-color: #282828;
+  padding-top: 110px;
+  padding-bottom: 56px;
+}
+
+.lower-footer-header {
+  display: flex;
   justify-content: center;
+  margin-bottom: 22px;
+}
+
+.lower-footer-header h2 {
+  color: #ffffff;
+  font-size: 55.42px;
+}
+
+.lower-footer-header span {
+  font-size: 45.72px;
+  color: #e93656;
+  transform: translateY(10px);
+}
+
+.lower-footer-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lower-footer-body p {
+  width: 574px;
+  font-size: 17px;
+  margin-bottom: 40px;
+  color: #a5a5a5;
+}
+
+.lower-footer-body img {
+  width: 30px;
+  height: 30px;
+}
+
+.lower-footer-footer {
+  background-color: #171717;
+  display: flex;
+  justify-content: center;
+  padding-top: 27px;
+  padding-bottom: 36px;
+}
+
+.lower-footer-footer .copyright {
+  color: #a0a8b7;
+  font-size: 15px;
+  border: 1px solid #a0a8b7;
+  border-radius: 50%;
+  padding-left: 2px;
+  padding-right: 2px;
+  margin-right: 4px;
+}
+
+.lower-footer-footer p {
+  color: #a0a8b7;
+  font-size: 15px;
+}
+
+.lower-footer-footer span {
+  color: #ffffff;
+  font-size: 15px;
+  margin-left: 4px;
+  margin-right: 4px;
 }
