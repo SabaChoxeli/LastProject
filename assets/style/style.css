@@ -94,10 +94,19 @@ header {
   display: flex;
   justify-content: center;
   transform: translateY(-110px);
+  overflow: hidden;
 }
 
-.left-hbody img {
+.header-body img {
   width: 550px;
+}
+
+.slider-item {
+  display: none;
+}
+
+.active {
+  display: block;
 }
 
 /* here starts header's body's right side */
