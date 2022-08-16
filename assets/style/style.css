@@ -18,8 +18,12 @@ img {
   object-fit: fill;
 }
 
+.d-none {
+  display: none;
+}
+
 .container {
-  max-width: 1400px;
+  /* max-width: 1400px; */
   width: 100%;
   margin: 0 auto;
 }
@@ -105,10 +109,6 @@ header {
   display: none;
 }
 
-.active {
-  display: block;
-}
-
 /* here starts header's body's right side */
 .right-hbody {
   display: flex;
@@ -148,13 +148,8 @@ header {
   border-radius: 50%;
 }
 
-.youtube-logo img {
-  width: 30px;
-  border-radius: 0%;
-}
-
-.smt-logo img {
-  border-radius: 0%;
+.logos .github-logo {
+  width: 29px;
 }
 
 /* here starts header's footer */
@@ -220,13 +215,18 @@ header {
 }
 
 .upper-section-left button {
-  background-color: #e93656;
+  background-color: #0000005e;
   color: #ffffff;
   font-size: 15px;
   width: 152px;
   height: 50px;
   border: none;
   cursor: pointer;
+  transition: 0.6s;
+}
+
+.upper-section-left button:hover {
+  background-color: #e93656;
 }
 
 /* here starts upper section's middle */
@@ -271,25 +271,26 @@ header {
 }
 
 .first-section-progress {
-  width: 256px;
+  width: 275px;
   height: 9px;
   background-color: #e93656;
+  transition: 0.7s;
 }
 
 .second-section-progress {
   background-color: #e93656;
-  width: 191px;
+  width: 215px;
   height: 9px;
 }
 
 .third-section-progress {
-  width: 150px;
+  width: 120px;
   height: 9px;
   background-color: #e93656;
 }
 
 .fourth-section-progress {
-  width: 76px;
+  width: 35px;
   height: 9px;
   background-color: #e93656;
 }
@@ -299,14 +300,22 @@ header {
   display: flex;
 }
 
-.right-side-lower div {
+.right-side-lower a {
   width: 50px;
   height: 50px;
   background-color: #f9f9f9;
   margin-right: 5px;
+  transition: 0.7s;
+  padding-left: 15px;
+  padding-top: 15px;
+  cursor: pointer;
 }
 
-.right-side-lower div:hover {
+.right-side-lower a img {
+  width: 20px;
+}
+
+.right-side-lower a:hover {
   background-color: #15263e;
 }
 
@@ -322,6 +331,7 @@ header {
   background-color: #131a36;
   justify-content: center;
   align-items: center;
+  margin-top: 100px;
 }
 
 .img-div {
@@ -409,6 +419,55 @@ header {
   opacity: 97%;
   background-color: #fafafa;
   margin-right: 10px;
+  position: relative;
+}
+
+.services:hover {
+  background-color: #15263e;
+  opacity: 98%;
+  transition: 0.8s all;
+}
+
+.services:hover .hover-text {
+  opacity: 1;
+  transition: 0.8s all;
+}
+
+.services:hover img {
+  opacity: 0;
+  /* transition: 0.5s all; */
+}
+
+.services:hover h3 {
+  opacity: 0;
+  /* transition: 0.5s all; */
+}
+
+.services-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services .hover-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  opacity: 0;
+  position: absolute;
+}
+
+.services .hover-text p {
+  color: #ececec;
+  font-size: 14px;
+  width: 185px;
+  margin-top: 20px;
+}
+
+.services .hover-text h4 {
+  color: #ffffff;
+  font-size: 22px;
 }
 
 .guarantee img {
@@ -420,6 +479,12 @@ header {
 /* here starts second section's lower side */
 .lower-second_section {
   display: flex;
+  margin-top: 10px;
+}
+
+.lower-second_section h3 {
+  font-size: 22px;
+  color: #222222;
   margin-top: 10px;
 }
 
@@ -907,4 +972,8 @@ header {
   font-size: 15px;
   margin-left: 4px;
   margin-right: 4px;
+}
+
+.active {
+  display: block;
 }

@@ -28,3 +28,9 @@ function startSliding() {
 }
 
 startSliding();
+
+// const progressBar = document.getElementById("skills");
+
+// progressBar.addEventListener("click", () => {
+//   progressBar.classList.add("active");
+// });
