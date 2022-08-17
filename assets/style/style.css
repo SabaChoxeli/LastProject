@@ -1028,7 +1028,7 @@ header {
 /* here starts footer */
 .upper-footer {
   height: 660px;
-  background-image: url(/assets/imgs/footer/footer\ background.jpg);
+  background-image: url("/assets/imgs/footer/footerbackground.jpg");
   background-size: cover;
 }
 
