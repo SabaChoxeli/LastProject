@@ -57,11 +57,13 @@ header {
 .roca {
   color: #1a1a1a;
   font-size: 40px;
+  font-family: poppins-extrabold;
 }
 
 .roca-dot {
   color: #0081ff;
-  font-size: 41px;
+  font-size: 33px;
+  font-family: poppins-extrabold;
 }
 
 .lower-left {
@@ -71,6 +73,7 @@ header {
 .lower-left span {
   color: #b3b3b3;
   font-size: 13px;
+  font-family: montserrat-regular;
 }
 
 /* here starts header's right side */
@@ -81,16 +84,18 @@ header {
 }
 
 .parent-span {
-  color: #b3b3b3;
+  color: #1c1c1c;
   font-size: 158.3px;
+  font-family: poppins-extrabold;
 }
 
 .child-span {
   color: #373737;
   font-size: 43.17px;
   position: absolute;
-  transform: translate(-175px, 65px);
+  transform: translate(-180px, 85px);
   width: 227px;
+  font-family: poppins-extrabold;
 }
 
 /* here starts header's body's left side */
@@ -123,14 +128,17 @@ header {
 
 .first-line {
   font-size: 50px;
+  font-family: glacial-regular;
 }
 
 .second-line {
   font-size: 71px;
+  font-family: glacial-regular;
 }
 
 .third-line {
   font-size: 23.3px;
+  font-family: glacial-regular;
 }
 
 .logos {
@@ -166,11 +174,13 @@ header {
 .hundred-perc {
   color: #e93656;
   font-size: 24px;
+  font-family: montserrat-bold;
 }
 
 .satis-cl {
   color: #212121;
   font-size: 24px;
+  font-family: montserrat-bold;
 }
 
 .progress {
@@ -179,6 +189,7 @@ header {
   background-color: #e93656;
   margin-top: 20px;
   margin-bottom: 30px;
+  border-radius: 6px;
 }
 
 /* here starts upper section's left side */
@@ -199,12 +210,14 @@ header {
   color: #222222;
   font-size: 40px;
   margin-bottom: 6px;
+  font-family: glacial-bold;
 }
 
 .upper-section-left h4 {
   color: #daae19;
   font-size: 14px;
   margin-bottom: 33px;
+  font-family: muli;
 }
 
 .upper-section-left p {
@@ -223,6 +236,7 @@ header {
   border: none;
   cursor: pointer;
   transition: 0.6s;
+  font-family: glacial-bold;
 }
 
 .upper-section-left button:hover {
@@ -236,7 +250,8 @@ header {
 }
 
 .upper-section-middle img {
-  width: 430px;
+  max-width: 430px;
+  width: 100%;
 }
 
 /* here starts upper section right side's upper */
@@ -252,49 +267,71 @@ header {
 
 .right-side-upper {
   margin-bottom: 78px;
+  margin-right: 10px;
 }
 
 .right-side-upper p {
   color: #555555;
   font-size: 20px;
+  font-family: glacial-bold;
 }
 
 .right-side-upper span {
   color: #e93656;
   font-size: 20px;
+  font-family: glacial-bold;
 }
 
 .section-progress {
-  max-width: 300px;
-  width: 100%;
+  width: 300px;
   height: 9px;
   background-color: #f0f0f0;
+  border-radius: 5px;
 }
 
-.first-section-progress {
-  max-width: 275px;
-  width: 100%;
+#first-section-progress {
+  max-width: 90%;
   height: 9px;
   background-color: #e93656;
   transition: 0.7s;
+  border-radius: 5px;
 }
 
-.second-section-progress {
-  background-color: #e93656;
-  width: 215px;
-  height: 9px;
+#first-section-progress.active {
+  max-width: 90%;
 }
 
-.third-section-progress {
-  width: 120px;
-  height: 9px;
+#second-section-progress {
   background-color: #e93656;
+  max-width: 75%;
+  height: 9px;
+  border-radius: 5px;
 }
 
-.fourth-section-progress {
-  width: 35px;
+#second-section-progress.active {
+  max-width: 75%;
+}
+
+#third-section-progress {
+  max-width: 40%;
   height: 9px;
   background-color: #e93656;
+  border-radius: 5px;
+}
+
+#third-section-progress.active {
+  max-width: 40%;
+}
+
+#fourth-section-progress {
+  max-width: 10%;
+  height: 9px;
+  background-color: #e93656;
+  border-radius: 5px;
+}
+
+#fourth-section-progress.active {
+  max-width: 10%;
 }
 
 /* here starts upper section right side's lower */
@@ -375,12 +412,14 @@ header {
 .info-div h3 {
   font-size: 25px;
   color: #ffffff;
+  font-family: glacial-bold;
 }
 
 .info-div h5 {
   font-size: 14px;
   color: #dfdfdf;
   margin-top: 15px;
+  font-family: muli;
 }
 
 .img-div:hover {
@@ -407,12 +446,14 @@ header {
 
 .upper-second_section {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .upper-second_section h3 {
   font-size: 22px;
   color: #222222;
   margin-top: 10px;
+  font-family: glacial-bold;
 }
 
 .services {
@@ -465,11 +506,13 @@ header {
   font-size: 14px;
   width: 185px;
   margin-top: 20px;
+  font-family: muli-light;
 }
 
 .services .hover-text h4 {
   color: #ffffff;
   font-size: 22px;
+  font-family: glacial-bold;
 }
 
 .hover-text {
@@ -485,6 +528,7 @@ header {
 /* here starts second section's lower side */
 .lower-second_section {
   display: flex;
+  flex-wrap: wrap;
   margin-top: 10px;
 }
 
@@ -492,6 +536,7 @@ header {
   font-size: 22px;
   color: #222222;
   margin-top: 10px;
+  font-family: glacial-bold;
 }
 
 /* here starts third(recomendation) section's left side */
@@ -507,6 +552,7 @@ header {
   font-size: 15px;
   color: #ffffff;
   width: 430px;
+  font-family: roboto-light;
 }
 
 /* here starts third(recomendation) section's middle */
@@ -549,11 +595,13 @@ header {
   color: #e93656;
   margin-top: 28px;
   margin-bottom: 9px;
+  font-family: roboto-light;
 }
 
 .quote-div h2 {
   font-size: 28px;
   color: #ffffff;
+  font-family: glacial-bold;
 }
 
 .square-button {
@@ -582,6 +630,7 @@ header {
 .projects-header h2 {
   color: #2e2e2e;
   font-size: 70px;
+  font-family: glacial-bold;
 }
 
 .projects-header {
@@ -612,6 +661,7 @@ header {
   font-size: 20px;
   margin-bottom: 30px;
   cursor: pointer;
+  font-family: glacial-bold;
 }
 
 .projects-div img {
@@ -693,11 +743,13 @@ header {
 .articles-header span {
   color: #2ed279;
   font-size: 13px;
+  font-family: glacial-bold;
 }
 
 .articles-header h2 {
   color: #2e2e2e;
   font-size: 70px;
+  font-family: glacial-bold;
 }
 
 .articles-header {
@@ -733,6 +785,7 @@ header {
   font-size: 14px;
   margin-left: 30px;
   margin-bottom: 5px;
+  font-family: muli;
 }
 
 .articles-design h3 {
@@ -740,6 +793,7 @@ header {
   color: #161616;
   margin-left: 24px;
   margin-bottom: 28px;
+  font-family: glacial-bold;
 }
 
 .articles-design p {
@@ -747,6 +801,7 @@ header {
   margin-left: 28px;
   width: 465px;
   font-size: 16px;
+  font-family: muli;
 }
 
 .articles-design .read-more {
@@ -755,6 +810,7 @@ header {
   margin-left: 28px;
   margin-top: 10px;
   cursor: pointer;
+  font-family: muli;
 }
 
 .years {
@@ -772,7 +828,8 @@ header {
 }
 
 .years-background img {
-  width: 809px;
+  max-width: 809px;
+  width: 100%;
   height: 590px;
 }
 
@@ -781,6 +838,7 @@ header {
   font-size: 30px;
   writing-mode: tb-rl;
   transform: rotate(180deg);
+  font-family: jaapokki-regular;
 }
 
 .application-design {
@@ -788,6 +846,7 @@ header {
   height: 590px;
   padding-left: 227px;
   padding-top: 100px;
+  background-color: #fafafa;
 }
 
 .application-design img {
@@ -806,18 +865,21 @@ header {
   color: #888888;
   font-size: 14px;
   margin-bottom: 6px;
+  font-family: muli;
 }
 
 .application-design h3 {
   color: #161616;
   font-size: 38px;
   margin-bottom: 28px;
+  font-family: glacial-bold;
 }
 
 .application-design p {
   color: #494949;
   font-size: 16px;
   max-width: 465px;
+  font-family: muli;
 }
 
 .application-design .read-more {
@@ -825,6 +887,7 @@ header {
   font-size: 13px;
   cursor: pointer;
   margin-top: 10px;
+  font-family: muli;
 }
 
 .third-box {
@@ -833,16 +896,26 @@ header {
   transform: translateY(-8px);
 }
 
+.adviser-design {
+  width: 800px;
+  height: 590px;
+  background-color: #fafafa;
+}
+
 .adviser-design span {
   color: #888888;
   font-size: 14px;
   margin-bottom: 6px;
+  font-family: muli;
+  margin-left: 30px;
 }
 
 .adviser-design h3 {
   color: #161616;
   font-size: 38px;
   margin-bottom: 28px;
+  font-family: glacial-bold;
+  margin-left: 24px;
 }
 
 .adviser-design p {
@@ -850,6 +923,8 @@ header {
   font-size: 16px;
   width: 465px;
   margin-right: 165px;
+  font-family: muli;
+  margin-left: 28px;
 }
 
 .adviser-design img {
@@ -858,6 +933,7 @@ header {
   border-radius: 50%;
   margin-bottom: 35px;
   margin-top: 108px;
+  margin-left: 7px;
 }
 
 .adviser-design .read-more {
@@ -865,6 +941,7 @@ header {
   font-size: 13px;
   cursor: pointer;
   margin-top: 10px;
+  font-family: muli;
 }
 
 /* here starts rosa team section */
@@ -883,15 +960,18 @@ header {
 .rosa-header span {
   color: #2ed279;
   font-size: 14px;
+  font-family: glacial-bold;
 }
 
 .rosa-header h2 {
   color: #262526;
   font-size: 70px;
+  font-family: glacial-bold;
 }
 
 .rosa-body {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -926,12 +1006,14 @@ header {
 .rosa-hover h5 {
   color: #161616;
   font-size: 16px;
+  font-family: poppins-semibold;
 }
 
 .rosa-hover p {
   color: #626262;
   font-size: 13px;
   width: 145px;
+  font-family: roboto-light;
 }
 
 .rosa-hover:hover {
@@ -961,11 +1043,13 @@ header {
 .footer-header h2 {
   font-size: 45px;
   color: #ffffff;
+  font-family: jaapokki-regular;
 }
 
 .footer-header span {
   font-size: 17px;
   color: #eeeeee;
+  font-family: roboto-light;
 }
 
 /* here starts footer's body */
@@ -975,6 +1059,7 @@ header {
   outline: none;
   padding-left: 30px;
   font-size: 10px;
+  font-family: poppins-semibold;
 }
 
 .footer-body form {
@@ -991,6 +1076,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 
 .input-field textarea {
@@ -1002,6 +1088,7 @@ header {
   padding-left: 30px;
   padding-top: 25px;
   font-size: 10px;
+  font-family: poppins-semibold;
 }
 
 .input-field {
@@ -1018,6 +1105,46 @@ header {
   padding: 0;
   color: #e93656;
   font-size: 12px;
+  font-family: glacial-bold;
+}
+
+.modal {
+  position: fixed;
+  max-width: 800px;
+  width: 100%;
+  height: 300px;
+  background-color: #8b8b8b;
+  left: 30%;
+  bottom: 30%;
+  z-index: 10;
+  display: none;
+}
+
+.pop-up {
+  display: block;
+}
+
+.modal h2 {
+  color: white;
+  text-align: center;
+  margin-top: 80px;
+  font-family: glacial-bold;
+}
+
+.modal button {
+  width: 80px;
+  height: 35px;
+  color: black;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  font-family: poppins-semibold;
+}
+
+.modal-flex {
+  display: flex;
+  justify-content: center;
+  margin-top: 130px;
 }
 
 /* here starts lower footer */
@@ -1036,12 +1163,14 @@ header {
 .lower-footer-header h2 {
   color: #ffffff;
   font-size: 55.42px;
+  font-family: poppins-extrabold;
 }
 
 .lower-footer-header span {
   font-size: 45.72px;
   color: #e93656;
   transform: translateY(10px);
+  font-family: poppins-extrabold;
 }
 
 .lower-footer-body {
@@ -1051,10 +1180,12 @@ header {
 }
 
 .lower-footer-body p {
-  width: 574px;
+  width: 590px;
   font-size: 17px;
   margin-bottom: 40px;
   color: #a5a5a5;
+  font-family: roboto-light;
+  text-align: center;
 }
 
 .lower-footer-body img {
@@ -1068,6 +1199,7 @@ header {
   justify-content: center;
   padding-top: 27px;
   padding-bottom: 36px;
+  align-items: center;
 }
 
 .lower-footer-footer .copyright {
@@ -1078,6 +1210,7 @@ header {
   padding-left: 2px;
   padding-right: 2px;
   margin-right: 4px;
+  font-family: muli;
 }
 
 .lower-footer-footer p {
@@ -1090,6 +1223,8 @@ header {
   font-size: 15px;
   margin-left: 4px;
   margin-right: 4px;
+  font-family: muli;
+  transform: translateY(-3px);
 }
 
 .active {

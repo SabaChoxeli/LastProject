@@ -29,11 +29,17 @@ function startSliding() {
 
 startSliding();
 
-// const progressBar = document.getElementById("skills");
+// const progressBar = document.querySelectorAll(".skills");
 
-// progressBar.addEventListener("click", () => {
-//   progressBar.classList.add("active");
-// });
+// function renderSkills() {
+//   progressBar.addEventListener("scroll", () => {
+//     if ((window.scrollY = 570)) {
+//       progressBar.classList.add("active");
+//     }
+//   });
+// }
+
+// renderSkills();
 
 const squareButton = document.querySelectorAll(".square-button"),
   profiles = document.querySelectorAll(".recom-profiles");
@@ -67,4 +73,71 @@ function renderButtons() {
   });
 }
 
-console.log("sqd");
+const modalOpenBtn = document.querySelector(".button"),
+  modal = document.querySelector(".modal"),
+  modalCloseBtn = document.querySelector(".close-modal");
+
+// function openModal() {
+//   modal.classList.add("pop-up");
+// }
+
+// function closeModal() {
+//   modal.classList.remove("pop-up");
+// }
+
+function dynamicOpenModal(selector) {
+  const modal = document.querySelector(selector);
+  if (modal) {
+    modal.classList.add("pop-up");
+    const modalCloseBtn = modal.querySelector(".close-modal");
+    modalCloseBtn.addEventListener("click", () => {
+      dynamicCloseModal(selector);
+    });
+  }
+}
+
+function dynamicCloseModal(selector) {
+  const modal = document.querySelector(selector);
+  if (modal) {
+    modal.classList.remove("pop-up");
+  }
+}
+
+modalOpenBtn.addEventListener("click", () => {
+  dynamicOpenModal(".modal");
+});
+
+const userUsername = document.getElementById("username"),
+  userEmail = document.getElementById("useremail"),
+  userWebsite = document.getElementById("userwebsite"),
+  userText = document.getElementById("userText"),
+  form = document.getElementById("form");
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault;
+  let userData = {
+    name: userUsername.value,
+    mail: userEmail.value,
+    website: userWebsite.value,
+    text: userText.value,
+  };
+  registerUser(userData);
+  form.reset();
+});
+
+async function registerUser(userData) {
+  try {
+    const send = await fetch("http://borjomi.loremipsum.ge/api/send-message", {
+      method: "POST",
+      body: JSON.stringify(userData),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+    const dataFrom = await res.JSON();
+    console.log(dataFrom);
+    // await Response.JSON();
+  } catch (e) {
+    console.log("Eroor - ", e);
+  }
+}

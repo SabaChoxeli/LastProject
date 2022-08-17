@@ -1,0 +1,76 @@
+@font-face {
+  font-family: glacial-bold;
+  src: url("../fonts/GlacialIndifference-Bold.ttf") format("ttf"),
+    url("../fonts/GlacialIndifference-Bold.woff") format("woff"),
+    url("../fonts/GlacialIndifference-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: glacial-regular;
+  src: url("../fonts/GlacialIndifference-Regular.ttf") format("ttf"),
+    url("../fonts/GlacialIndifference-Regular.woff") format("woff"),
+    url("../fonts/GlacialIndifference-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: jaapokki-regular;
+  src: url("../fonts/jaapokki-regular.ttf") format("ttf"),
+    url("../fonts/jaapokki-regular.woff") format("woff"),
+    url("../fonts/jaapokki-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: montserrat-bold;
+  src: url("../fonts/Montserrat-Bold.ttf") format("ttf"),
+    url("../fonts/Montserrat-Bold.woff") format("wof"),
+    url("../fonts/Montserrat-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: montserrat-regular;
+  src: url("../fonts/Montserrat-Regular.woff2") format("woff2"),
+    url("../fonts/Montserrat-Regular.ttf") format("ttf"),
+    url("../fonts/Montserrat-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: muli;
+  src: url("../fonts/Muli.ttf") format("ttf"),
+    url("../fonts/Muli.woff") format("woff"),
+    url("../fonts/Muli.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: muli-light;
+  src: url("../fonts/Muli-Light.ttf") format("ttf"),
+    url("../fonts/Muli-Light.woff") format("woff"),
+    url("../fonts/Muli-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: poppins-extrabold;
+  src: url("../fonts/Poppins-ExtraBold.ttf") format("ttf"),
+    url("../fonts/Poppins-ExtraBold.woff") format("woff"),
+    url("../fonts/Poppins-ExtraBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: poppins-semibold;
+  src: url("../fonts/Poppins-SemiBold.ttf") format("ttf"),
+    url("../fonts/Poppins-SemiBold.woff") format("woff"),
+    url("../fonts/Poppins-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: roboto-bold;
+  src: url("../fonts/Roboto-Bold.ttf") format("ttf"),
+    url("../fonts/Roboto-Bold.woff") format("woff"),
+    url("../fonts/Roboto-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: roboto-light;
+  src: url("../fonts/Roboto-Light.ttf") format("ttf"),
+    url("../fonts/Roboto-Light.woff") format("woff"),
+    url("../fonts/Roboto-Light.woff2") format("woff2");
+}
