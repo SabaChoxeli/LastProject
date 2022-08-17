@@ -265,13 +265,15 @@ header {
 }
 
 .section-progress {
-  width: 300px;
+  max-width: 300px;
+  width: 100%;
   height: 9px;
   background-color: #f0f0f0;
 }
 
 .first-section-progress {
-  width: 275px;
+  max-width: 275px;
+  width: 100%;
   height: 9px;
   background-color: #e93656;
   transition: 0.7s;
@@ -470,6 +472,10 @@ header {
   font-size: 22px;
 }
 
+.hover-text {
+  cursor: default;
+}
+
 .guarantee img {
   width: 60px;
   height: 60px;
@@ -504,10 +510,20 @@ header {
 }
 
 /* here starts third(recomendation) section's middle */
+.recom-profiles {
+  display: none;
+}
+
+.recom-profiles.active {
+  display: flex;
+  align-items: center;
+}
+
 .recom-face {
   border: 2px dashed white;
   border-radius: 50%;
   margin-right: 50px;
+  padding-top: 4px;
 }
 
 .recom-face img {
@@ -531,6 +547,8 @@ header {
 .quote-div h5 {
   font-size: 13px;
   color: #e93656;
+  margin-top: 28px;
+  margin-bottom: 9px;
 }
 
 .quote-div h2 {
@@ -538,7 +556,7 @@ header {
   color: #ffffff;
 }
 
-.squares {
+.square-button {
   width: 13px;
   height: 13px;
   border: #ffffff 2px solid;
@@ -547,10 +565,17 @@ header {
 
 .square-div {
   margin-left: 153px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.squares:hover {
+.square-button:hover {
   border: #e93656 2px solid;
+}
+
+.square-button.active {
+  border: 2px solid #e93656;
 }
 
 /* here starts fourth(new projects) section's header */
@@ -566,6 +591,12 @@ header {
 }
 
 /* here starts fourth(new projects) section's body */
+.latest-projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .projects-body nav {
   background-color: #15263e;
   width: 240px;
@@ -573,7 +604,6 @@ header {
   padding-top: 51px;
   padding-left: 59px;
   padding-right: 71px;
-  margin-left: 385px;
   margin-right: 30px;
 }
 
@@ -585,23 +615,74 @@ header {
 }
 
 .projects-div img {
-  width: 300px;
+  max-width: 300px;
+  width: 100%;
   height: 350px;
+}
+
+.projects-div {
+  position: relative;
+}
+
+.project-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #000000d4;
+  opacity: 0;
+}
+
+.project-hover:hover {
+  opacity: 1;
+}
+
+.project-hover img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 17px;
+}
+
+.project-hover h5 {
+  color: #dddddd;
+  font-size: 11px;
+  margin-bottom: 7px;
+}
+
+.project-hover h3 {
+  color: #ffffff;
+  font-size: 23px;
 }
 
 .projects {
   display: flex;
-  flex-wrap: wrap;
-  margin-right: 300px;
+  flex-direction: column;
 }
 
 .projects-body {
   display: flex;
-  transform: translateX(-120px);
+  margin-top: 55px;
 }
 
 .projects-body nav ul li:hover {
   color: #e93656;
+}
+
+.project-body nav ul li.active {
+  color: #e93656;
+}
+
+.upper-projects {
+  display: flex;
+}
+
+.lower-projects {
+  display: flex;
 }
 
 /* here starts fifth(latest articles) section's header */
@@ -789,6 +870,7 @@ header {
 /* here starts rosa team section */
 .rosa-team {
   margin-top: 170px;
+  margin-bottom: 155px;
 }
 
 .rosa-header {
@@ -822,7 +904,43 @@ header {
   width: 230px;
   height: 190px;
   margin-right: 5px;
-  padding: 40px 59px;
+  padding: 50px 70px;
+  position: relative;
+}
+
+.rosa-hover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: #e93656 4px solid;
+  opacity: 0;
+}
+
+.rosa-hover h5 {
+  color: #161616;
+  font-size: 16px;
+}
+
+.rosa-hover p {
+  color: #626262;
+  font-size: 13px;
+  width: 145px;
+}
+
+.rosa-hover:hover {
+  opacity: 1;
+  transition: 1s;
+}
+
+.rosa-divs:hover img {
+  opacity: 0;
 }
 
 /* here starts footer */
