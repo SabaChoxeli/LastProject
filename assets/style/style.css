@@ -542,7 +542,7 @@ header {
 /* here starts third(recomendation) section's left side */
 .recomendation-section {
   height: 570px;
-  background-image: url("/assets/imgs/recomendationsection/countdown-bg@2x.png");
+  background-image: url("../imgs/recomendationsection/countdown-bg@2x.png");
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1028,7 +1028,7 @@ header {
 /* here starts footer */
 .upper-footer {
   height: 660px;
-  background-image: url("/assets/imgs/footer/footerbackground.jpg");
+  background-image: url("../imgs/footer/footerbackground.jpg");
   background-size: cover;
 }
 
