@@ -542,7 +542,7 @@ header {
 /* here starts third(recomendation) section's left side */
 .recomendation-section {
   height: 570px;
-  background-image: url(/assets/imgs/recomendationsection/countdown-bg@2x.png);
+  background-image: url("/assets/imgs/recomendationsection/countdown-bg@2x.png");
   display: flex;
   justify-content: center;
   align-items: center;
